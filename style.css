@@ -39,6 +39,10 @@ body {
   background-size: cover;
 
   position: relative;
+
+  transition: all ease 0.5s;
+
+  cursor: default;
 }
 
 .flex-container::after {
@@ -48,6 +52,10 @@ body {
   background-color: #ae0b25;
   border-radius: 20px;
   opacity: 0.75;
+}
+
+.flex-container:hover {
+  transform: scale(1.5);
 }
 
 /* ------------------------------ */
