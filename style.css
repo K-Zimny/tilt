@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  background: #fcfcfc;
+}
+
+/* ------------------------------ */
+/* Tilt Setup */
+/* ------------------------------ */
+
+.tilt {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #fcfcfc;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #ae0b25;
+  border: 5px solid #1f1f1f;
+  border-radius: 25px;
+  width: 500px;
+  height: 200px;
+
+  padding: 2rem;
+
+  background: url(https://www.fastprinting.com/wp-content/uploads/T8_Materica-1.jpg);
+  background-size: cover;
+
+  position: relative;
+}
+
+.flex-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #ae0b25;
+  border-radius: 20px;
+  opacity: 0.75;
+}
+
+/* ------------------------------ */
+/* card */
+/* ------------------------------ */
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  z-index: 1;
+  margin: 1rem 0;
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  z-index: 1;
+  margin: 0.25rem 0;
+}
+
+.sign-off {
+  margin: 0.5rem 0;
+}
