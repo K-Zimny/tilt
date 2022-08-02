@@ -31,7 +31,7 @@ body {
   border: 5px solid #1f1f1f;
   border-radius: 25px;
   width: 500px;
-  height: 200px;
+  min-height: 200px;
 
   padding: 2rem;
 
@@ -76,4 +76,22 @@ p {
 
 .sign-off {
   margin: 0.5rem 0;
+}
+
+@media (max-width: 1000px) {
+  .flex-container {
+    width: 300px;
+  }
+  .flex-container:hover {
+    transform: scale(1.05);
+  }
+}
+
+@media (max-width: 475px) {
+  .flex-container {
+    width: 200px;
+  }
+  .flex-container:hover {
+    transform: scale(1.01);
+  }
 }
