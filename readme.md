@@ -1,3 +1,3 @@
 # Tilt JS
 
-## This is my first experiment using tilt.js
+Experimentation with the tilt.js library.
